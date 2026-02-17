@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Sebastián Osorio — Software Engineer (Backend & Database Focus). Clean Architecture, SOLID, APIs, SQL, Docker." />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#0b0f14" />
+    <title>Sebastián Osorio | Engineering Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Sebastián Osorio</span>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#fundamentals">Fundamentals</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button id="themeToggle" class="btn btn-ghost" type="button" aria-label="Toggle theme">
+            <span id="themeIcon" aria-hidden="true">☾</span>
+            <span class="btn-text">Theme</span>
+          </button>
+          <a class="btn" href="#contact">Hire / Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="pill">
+              Software Engineer (Backend & Database Focus) · Clean Architecture · SOLID · Multi-Stack Adaptable
+            </p>
+
+            <h1>
+              Building maintainable backend systems and data-driven solutions — focused on fundamentals, not just frameworks.
+            </h1>
+
+            <p class="subtitle">
+              Systems Engineering student with experience in Java and TypeScript, REST API design, relational data modeling
+              (PostgreSQL/MySQL), Dockerized environments, and Git-based workflows.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#fundamentals">Engineering Fundamentals</a>
+            </div>
+
+            <div class="quick-facts">
+              <div class="fact">
+                <div class="fact-k">Focus</div>
+                <div class="fact-v">Backend · Databases · Architecture</div>
+              </div>
+              <div class="fact">
+                <div class="fact-k">Stacks</div>
+                <div class="fact-v">Java · TypeScript · SQL · Docker</div>
+              </div>
+              <div class="fact">
+                <div class="fact-k">Location</div>
+                <div class="fact-v">Colombia (Remote-friendly)</div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="card profile-card" aria-label="Profile card">
+            <div class="avatar" aria-hidden="true">SO</div>
+            <div class="profile-meta">
+              <div class="profile-name">Sebastián Osorio</div>
+              <div class="profile-role">Software Engineer · Backend & Data</div>
+            </div>
+
+            <div class="profile-links">
+              <!-- Cambia los links a los tuyos -->
+              <a class="link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">Resume (PDF)</a>
+            </div>
+
+            <div class="chips">
+              <span class="chip">REST APIs</span>
+              <span class="chip">SQL</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Clean Architecture</span>
+              <span class="chip">SOLID</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>About</h2>
+            <p>
+              I position myself as an engineer: I prioritize system design, separation of concerns, and data correctness.
+              That’s what lets me adapt fast to different stacks and still deliver clean, reliable software.
+            </p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3>What I do</h3>
+              <ul class="list">
+                <li>Design and build REST APIs with clear contracts and predictable error handling.</li>
+                <li>Model relational databases (normalization, constraints, relationships) and write SQL confidently.</li>
+                <li>Structure code with Clean Architecture / SOLID to keep it maintainable as it grows.</li>
+                <li>Use Docker to create reproducible dev environments and reduce “works on my machine”.</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>What I’m strengthening now</h3>
+              <ul class="list">
+                <li>Advanced SQL (joins, indexing concepts, query analysis) and database-first thinking.</li>
+                <li>Software architecture patterns (modular monolith → microservices mindset).</li>
+                <li>Cloud basics (AWS fundamentals, deployment concepts, CI/CD principles).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FUNDAMENTALS -->
+      <section id="fundamentals" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>Engineering Fundamentals I Apply</h2>
+            <p>These are stack-agnostic skills that translate to any language or framework.</p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card">
+              <h3>Architecture</h3>
+              <p class="muted">Separation of concerns, modularity, dependency boundaries.</p>
+              <ul class="list compact">
+                <li>Clean Architecture mindset</li>
+                <li>Layered design (controllers/services/repositories)</li>
+                <li>Contracts & interfaces</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Data & SQL</h3>
+              <p class="muted">Data modeling, constraints, relationships, query reasoning.</p>
+              <ul class="list compact">
+                <li>Normalization basics</li>
+                <li>Joins and relational thinking</li>
+                <li>ORM when useful, SQL when needed</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Quality</h3>
+              <p class="muted">Maintainability and predictable behavior.</p>
+              <ul class="list compact">
+                <li>SOLID principles</li>
+                <li>Clean Code practices</li>
+                <li>Consistent error handling</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Dev Workflow</h3>
+              <p class="muted">Team-friendly delivery and reproducibility.</p>
+              <ul class="list compact">
+                <li>Git branching & collaboration</li>
+                <li>Dockerized local environments</li>
+                <li>Documentation-first (README)</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Adaptability</h3>
+              <p class="muted">Frameworks change — fundamentals stay.</p>
+              <ul class="list compact">
+                <li>Fast learning loops</li>
+                <li>Pattern recognition</li>
+                <li>Tooling agnostic mindset</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Communication</h3>
+              <p class="muted">Engineering is also clarity.</p>
+              <ul class="list compact">
+                <li>Clear technical writeups</li>
+                <li>Trade-off reasoning</li>
+                <li>Diagram-friendly thinking</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p>
+              3–4 strong projects beat 10 weak ones. Each project should show problem → decisions → implementation → results.
+            </p>
+          </div>
+
+          <div class="projects">
+            <!-- Proyecto 1 -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>Event Management API</h3>
+                <div class="badges">
+                  <span class="badge">REST</span>
+                  <span class="badge">PostgreSQL</span>
+                  <span class="badge">Docker</span>
+                </div>
+              </div>
+              <p class="muted">
+                Backend system to manage events, speakers, registrations, and feedback with a relational model and clean
+                layering. (Replace with your real description.)
+              </p>
+              <ul class="list compact">
+                <li>Key focus: data modeling + API design + maintainability.</li>
+                <li>Includes: Swagger/OpenAPI, validation, error handling.</li>
+              </ul>
+              <div class="project-links">
+                <a class="link" href="#" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a class="link" href="#" target="_blank" rel="noreferrer">API Docs</a>
+              </div>
+            </article>
+
+            <!-- Proyecto 2 -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>Database Design: Shopping Cart Model</h3>
+                <div class="badges">
+                  <span class="badge">SQL</span>
+                  <span class="badge">ER Model</span>
+                  <span class="badge">DDL/DML</span>
+                </div>
+              </div>
+              <p class="muted">
+                Relational schema with scripts (DDL/DML), joins and reporting queries. Demonstrates strong DB fundamentals.
+              </p>
+              <ul class="list compact">
+                <li>Key focus: normalization, constraints, relationships, query thinking.</li>
+                <li>Includes: INNER JOIN queries and sample dataset.</li>
+              </ul>
+              <div class="project-links">
+                <a class="link" href="#" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a class="link" href="#" target="_blank" rel="noreferrer">ER Diagram</a>
+              </div>
+            </article>
+
+            <!-- Proyecto 3 -->
+            <article class="card project">
+              <div class="project-top">
+                <h3>Refactor: Anti-patterns to Clean Architecture</h3>
+                <div class="badges">
+                  <span class="badge">Architecture</span>
+                  <span class="badge">SOLID</span>
+                  <span class="badge">Documentation</span>
+                </div>
+              </div>
+              <p class="muted">
+                Technical analysis of a poorly structured system, identifying anti-patterns and proposing a modern
+                architecture (phases, diagrams, and rationale).
+              </p>
+              <ul class="list compact">
+                <li>Key focus: diagnosis, modularization, responsibilities, patterns.</li>
+                <li>Includes: architecture proposal + improvement plan.</li>
+              </ul>
+              <div class="project-links">
+                <a class="link" href="#" target="_blank" rel="noreferrer">Case Study</a>
+                <a class="link" href="#" target="_blank" rel="noreferrer">Diagrams</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>Contact</h2>
+            <p>Fastest way: email or LinkedIn. I can share a PDF resume and code samples on request.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3>Direct</h3>
+              <p class="muted">Replace with your real contact details.</p>
+              <div class="contact-lines">
+                <div><span class="label">Email:</span> <a class="link" href="mailto:youremail@example.com">youremail@example.com</a></div>
+                <div><span class="label">LinkedIn:</span> <a class="link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">linkedin.com/in/your-handle</a></div>
+                <div><span class="label">GitHub:</span> <a class="link" href="https://github.com/" target="_blank" rel="noreferrer">github.com/your-user</a></div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>What I’m looking for</h3>
+              <ul class="list">
+                <li>Junior Software Engineer roles (backend/data-oriented).</li>
+                <li>Teams that value clean architecture, documentation and solid fundamentals.</li>
+                <li>Opportunities to grow through real systems, code reviews, and strong mentorship.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span class="muted">© <span id="year"></span> Sebastián Osorio</span>
+        <span class="muted">Built as a static site (fast + free hosting).</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
