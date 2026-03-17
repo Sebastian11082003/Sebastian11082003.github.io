@@ -40,7 +40,8 @@ My goal is to build maintainable, scalable, and well-structured systems.
 
 Although my focus is architectural and foundational, I have worked with:
 
-- **Languages:** Java, TypeScript
+- **Languages:** Java, TypeScript, Node.js, Vue, Angular,
+- **Frameworks** Next.js,
 - **Backend:** REST APIs
 - **Databases:** PostgreSQL, MySQL
 - **Dev Tools:** Docker, Git
